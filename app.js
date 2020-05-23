@@ -30,7 +30,7 @@ makeKazumeguButton.onclick = () => {
       + '&ref_src=twsrc%5Etfw';
     anchor.setAttribute('href', hrefValue);
     anchor.className = 'twitter-hashtag-button';
-    anchor.setAttribute('data-text', count + "回目でカズめぐをつくれました！" +"https://remimegu.github.io/KAZUMEGUremi");
+    anchor.setAttribute('data-text', count + "回目でカズめぐをつくれました！ https://remimegu.github.io/KAZUMEGUremi");
     anchor.innerText = 'Tweet #カズめぐをつくれ！';
     tweetDivided.appendChild(anchor);
 
